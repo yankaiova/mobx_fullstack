@@ -36,7 +36,7 @@ export const AddUser = observer(() => {
         className={style.inputForm}
       />
       <button
-        disabled={newName === ""}
+        disabled={!newName}
         className={style.btn}
         onClick={() => {
           users.addUser(newName, checkDate(newBorn));
