@@ -1,0 +1,27 @@
+.tableHeader {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.btn {
+  margin-left: 30px;
+  height: 30px;
+  width: 80px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  border-color: lightgrey;
+}
+.inputForm {
+  border: 3px solid lightgrey;
+  border-radius: 3px;
+  margin: 5px;
+}
+.addBlock {
+  max-width: 500px;
+  padding: 10px;
+  border: 3px solid lightgrey;
+  margin-bottom: 10px;
+}
+.textForm {
+  margin-left: 20px;
+}
